@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: white;
+    min-height: 200vh;
+    font-size: 20px;
+    background:#96671f ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background{
+    background:#96671f ;
+    min-height: 200vh;
+
+}
+
+.bt1{
+    
+    border-radius: 5px;
+    background: #D4AF37;
+    width: 200px;
+    border: none;
+    height: 70px;
+    font-size: 50%;
+    border-right: 5px solid darken(#D4AF37, 10%);
+    border-bottom: 5px solid darken(#D4AF37, 10%);
+
+
+
+}
+.bt1:hover
+{
+    cursor: pointer;
+
+
+}
+.bt1:active{
+    background: darken(#D4AF37, 10%);
+    border-right: 5px solid #D4AF37;
+    border-bottom: 5px solid#D4AF37;
+}
